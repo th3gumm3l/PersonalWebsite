@@ -1,0 +1,28 @@
+$textcolor: black;
+$textcolorhover: red;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 6rem;
+        height: 6rem;
+        margin: 1rem 0 0 1rem;
+    }
+
+    nav {
+        margin-right: 3rem;
+    }
+
+    a {
+        text-decoration: none;
+        margin-right: 2rem;
+        color: $textcolor;
+    }
+
+    a:hover {
+        color: $textcolorhover;
+    }
+}
