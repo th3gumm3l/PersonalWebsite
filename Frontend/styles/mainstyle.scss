@@ -11,6 +11,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
 
     img {
         width: 6rem;
@@ -27,6 +30,7 @@ header {
         margin-right: 3rem;
         color: $textcolor;
         font-size: 2rem;
+        font-weight: bold;
     }
 
     a:hover {
@@ -41,16 +45,22 @@ header {
 .body-container {
     display: flex;
     justify-content: center;
-    
+    background-image: url("../pics/tim-bernhard-oI37gD363wk-unsplash.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
 
     .topindex {
         display: flex;
         flex-direction: column;
-        margin-top: 12rem;
+        height: 100vh;
+        justify-content: center;
     }
 
     h1 {
         font-size: 8rem;
+        color: lightgrey;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     }
 
     .personallinks {    
