@@ -1,5 +1,5 @@
-$textcolor: black;
-$textcolorhover: red;
+$textcolor: lightgrey;
+$textcolorhover: white;
 
 * {
     margin: 0;
@@ -38,47 +38,54 @@ header {
     }
 
     .linkindex {
-        color: red;
+        color: rgb(71, 202, 202);
     }
 }
 
 .body-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-image: url("../pics/tim-bernhard-oI37gD363wk-unsplash.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
-
+    
     .topindex {
         display: flex;
+        align-items: center;
         flex-direction: column;
         height: 100vh;
         justify-content: center;
-    }
-
-    h1 {
-        font-size: 8rem;
-        color: lightgrey;
-        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    }
-
-    .personallinks {    
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        
-        margin-top: 1rem;
-
-        a {
-            img {
-                width: 5rem;
+        h1 {
+            font-size: 8rem;
+            color: rgba(23,32,45,255);
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        }
+    
+        .personallinks {    
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50%;
+            margin-top: 1rem;
+            a {
+                img {
+                    width: 5rem;
+                }
             }
         }
+
     }
 
     .middleindex {
+        height: 100vh;
 
+        margin-top: 5rem;
+        
+        h1 {
+            color: white;
+        }
     }
 
 

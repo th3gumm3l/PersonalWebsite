@@ -23,19 +23,20 @@ header nav {
 header a {
   text-decoration: none;
   margin-right: 3rem;
-  color: black;
+  color: lightgrey;
   font-size: 2rem;
   font-weight: bold;
 }
 header a:hover {
-  color: red;
+  color: white;
 }
 header .linkindex {
-  color: red;
+  color: rgb(71, 202, 202);
 }
 
 .body-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-image: url("../pics/tim-bernhard-oI37gD363wk-unsplash.jpeg");
   background-size: 100%;
@@ -44,21 +45,30 @@ header .linkindex {
 }
 .body-container .topindex {
   display: flex;
+  align-items: center;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
 }
-.body-container h1 {
+.body-container .topindex h1 {
   font-size: 8rem;
-  color: lightgrey;
+  color: rgb(23, 32, 45);
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-.body-container .personallinks {
+.body-container .topindex .personallinks {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 50%;
   margin-top: 1rem;
 }
-.body-container .personallinks a img {
+.body-container .topindex .personallinks a img {
   width: 5rem;
+}
+.body-container .middleindex {
+  height: 100vh;
+  margin-top: 5rem;
+}
+.body-container .middleindex h1 {
+  color: white;
 }/*# sourceMappingURL=mainstyle.css.map */
