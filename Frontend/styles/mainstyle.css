@@ -25,4 +25,26 @@ header a {
 }
 header a:hover {
   color: red;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+}
+.body-container .topindex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rem;
+}
+.body-container h1 {
+  font-size: 8rem;
+}
+.body-container .personallinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.body-container .personallinks a img {
+  width: 5rem;
 }/*# sourceMappingURL=mainstyle.css.map */

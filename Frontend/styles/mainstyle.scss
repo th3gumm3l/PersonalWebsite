@@ -33,3 +33,40 @@ header {
         color: $textcolorhover;
     }
 }
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    
+
+    .topindex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12rem;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    .personallinks {    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        margin-top: 1rem;
+
+        a {
+            img {
+                width: 5rem;
+            }
+        }
+    }
+
+    .middleindex {
+        
+    }
+
+
+}
+
